@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+}
+
+.card {
+  background-image: repeating-linear-gradient(112deg,
+  transparent,
+  transparent 25px,
+  rgba(255,255,255,1) 25px,
+  rgba(255,255,255,1) 27px);
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+  width: 330px;
+  height: 471px;
+  box-shadow: 9px 9px #E3E3E3;
+  background-color: gold;
+}
+
+.card-name {
+  padding-left: 15px;
+  text-transform: uppercase;
+}
+
+.image {
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.card-bottom {
+  outline: thin solid gray;
+  outline-offset: -15px;
+  padding: 15px;
+}
+
+.fact {
+  font-style: italic;
+  padding-left: 15px;
+}
+
+span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style-position: inside;
+  list-style: none;
+  padding-left: 15px;
+}
+
+.description {
+  padding-left: 15px;
+}
